@@ -1,0 +1,56 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1D1D27;
+    color: white;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+}
+.navbar > .left
+{
+    display: flex;
+    align-items: center;
+}
+.navbar > .left > img{
+    width: 120px;
+}
+.navbar > .left > h3{
+    margin: 0 10px;
+    border-radius: 9999px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+}
+.navbar > .left > h3:hover{
+    color: #97b9f0;
+}
+.navbar > .right{
+    display: flex;
+    align-items: center;
+}
+.navbar > .right > h3{
+    margin: 0 10px;
+    border-radius: 9999px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+}
+.navbar > .right > h3:hover{
+    color: #97b9f0;
+}
+.loginBtn{
+    margin: 2px solid #a52a2a !important;
+    color: white !important;
+    text-transform: inherit !important;
+    margin-right: 20px !important;
+    background-color: #2e2e38 !important;
+}
+.loginBtn:hover{
+    background-color: #4285f4 !important;
+}

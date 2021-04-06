@@ -1,0 +1,31 @@
+.discover
+{
+    background-color: #1d1d27;
+    color: white;
+    height: 50vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.discover > h1 > span {
+    color: #4285f4;
+}
+.statesBlock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px
+}
+.statesBlock > p{
+    padding: 10px;
+    background-color: #2e2e38;
+    margin: 10px;
+    font-weight: 600;
+    cursor: default;
+    border-radius: 5px;
+}
+.statesBlock > p:hover{
+    color: #4285f4;
+}

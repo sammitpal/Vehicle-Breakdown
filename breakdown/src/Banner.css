@@ -1,0 +1,27 @@
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    background-color: #1d1d27;
+}
+.bannerInfo > h1{
+    font-size: 3rem;
+    font-weight: 600 !important;
+    color: white;
+    font-weight: bold !important;
+}
+.bannerInfo > h1 > span{
+    color: #4285f4;
+}
+.banner > img{
+    width: 600px;
+}
+.bannerInfo{
+    display: flex;
+    flex-direction: column;
+}
+.bannerInfo > p{
+    color: whitesmoke;
+    font-size:1.2rem
+}
